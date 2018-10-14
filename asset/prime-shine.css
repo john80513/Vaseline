@@ -1,0 +1,67 @@
+#product_title.product-item{
+	background: -moz-linear-gradient(left, #fff 0%, #fff 50%, #020041 50%, #020041 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #fff 0%,#fff 50%,#020041 50%,#020041 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #fff 0%,#fff 50%,#020041 50%,#020041 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+}
+#product_title .product-bg{
+  width: 100%;
+  background-image: url('../img/prime-shine/bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+}
+#product_title.product-item .img {
+  padding-top: 8%;
+      padding-bottom: 5%;
+      padding-left: 8%;
+      background: url(../img/bg-linear.png) no-repeat 0 0;
+      background-size: 100% 100%;
+}
+#product_title.product-item .fb_btn  {
+    display: block;
+    max-width: 331px;
+    margin: auto;
+    margin-top: 2%;
+}
+#product_title.product-item .content_container .fb_btn img {
+    max-width: 331px;
+}
+#product_title.product-item .content_container img {
+    max-width: 518px;
+}
+@media (max-width: 992px)
+{
+  #product_title.product-item .img {
+    margin: auto;
+    padding-left: 12%;
+  }
+  #product_title.product-item .fb_btn {
+    margin-left: 16%;
+}
+}
+@media (max-width: 768px)
+{
+  #product_title.product-item .img {
+    margin: auto;
+    padding-left: 12%;
+  }
+  #product_title.product-item .fb_btn {
+    margin-left: 26%;
+}
+}
+@media (max-width: 576px)
+{
+  #product_title.product-item .img {
+    padding-left: 0;
+  }
+  #product_title.product-item .content_container {
+    width: 100%;
+    padding: 8%;
+      background-size: contain;
+  }
+  #product_title.product-item .fb_btn {
+    margin-left: 14%;
+    width: 70%;
+}
+}

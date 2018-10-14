@@ -1,0 +1,9 @@
+SetEnvIf Request_URI "ARcream2017" passreq
+AuthType Basic
+AuthName "Password required"
+AuthUserFile /home/sites/www.vaseline.com.hk/public_html/.htpasswd
+Require valid-user
+Order allow,deny
+Allow from all
+Deny from env=passreq
+Satisfy any
